@@ -1,0 +1,1640 @@
+{
+  "main_storyline": {
+    "title": "ชื่อเส้นเรื่องหลัก",
+    "status": "ยังดำเนินอยู่/จบแล้ว",
+    "start_point": "จุดเริ่มต้นของเรื่อง",
+    "current_clue": "เบาะแสปัจจุบัน",
+    "boss_choices": [
+      "ทางเลือก 1",
+      "ทางเลือก 2",
+      "ทางเลือก 3"
+    ],
+    "key_npc": [
+      {
+        "name": "NPC1",
+        "power_level": "ระดับพลัง",
+        "relationship_with_boss": "มิตร/ศัตรู/เป็นกลาง",
+        "current_status": "ฝึกฝนอยู่ที่.../ทำภารกิจ..."
+      }
+    ],
+    "related_organizations": [
+      "องค์กรที่เกี่ยวข้อง"
+    ],
+    "potential_impacts": [
+      "ผลกระทบจากการตัดสินใจ 1",
+      "ผลกระทบจากการตัดสินใจ 2"
+    ]
+  },
+  "side_storyline": {
+    "title": "ชื่อเส้นเรื่องรอง",
+    "status": "ยังดำเนินอยู่/จบแล้ว",
+    "latest_event": "เนื้อเรื่องล่าสุด",
+    "key_npc": [
+      {
+        "name": "NPC2",
+        "power_level": "ระดับพลัง",
+        "relationship_with_boss": "มิตร/ศัตรู/เป็นกลาง",
+        "current_status": "สถานะปัจจุบัน"
+      }
+    ],
+    "possible_outcomes": [
+      "ผลลัพธ์ที่เป็นไปได้ 1",
+      "ผลลัพธ์ที่เป็นไปได้ 2"
+    ]
+  },
+  "important_news_and_events": [
+    {
+      "event_type": "สงคราม",
+      "description": "การเปิดสงครามระหว่างอาณาจักร A และ B",
+      "impact": "ผลกระทบจากสงคราม"
+    },
+    {
+      "event_type": "ข่าวลับ",
+      "description": "ข่าวลับเกี่ยวกับการทรยศในสำนัก",
+      "impact": "ผลกระทบจากข่าวลับ"
+    }
+  ],
+  "world_settings": {
+    "world_type": {
+      "type_name": "โลกแฟนตาซี",
+      "description": "โลกที่มีพลังเวทมนตร์, เผ่าพันธุ์, และสิ่งมีชีวิตพิเศษ",
+      "settings": {
+        "governance": "การปกครองโดยมักมีจักรพรรดิหรือสภาเวทมนตร์",
+        "economy": "เศรษฐกิจที่ใช้ทรัพยากรธรรมชาติและเวทมนตร์",
+        "technology": "เทคโนโลยีต่ำ เน้นเวทมนตร์และสิ่งมีชีวิตพิเศษ"
+      }
+    },
+    "civilization_and_starting_location": {
+      "civilization_name": "อาณาจักรแห่งเวทมนตร์",
+      "starting_location": "เมืองหลวงเวทมนตร์"
+    },
+    "story_path": {
+      "path_name": "การฝึกฝน",
+      "description": "โฟกัสที่การฝึกฝนตัวละครในด้านต่าง ๆ เช่น วิชาเวทมนตร์, การต่อสู้ หรือทักษะพิเศษ",
+      "key_features": [
+        "การเรียนรู้วิชาพิเศษ",
+        "การเพิ่มพลังให้ตัวละคร",
+        "การผจญภัยตามหาอาจารย์"
+      ]
+    }
+  },
+  "event_notification_system": {
+    "important_events": [
+      {
+        "event_type": "สงคราม",
+        "description": "สงครามระหว่างอาณาจักร A และ B ได้เริ่มต้นขึ้น",
+        "timestamp": "2025-03-03T10:00:00Z",
+        "impact": "เมือง A ถูกโจมตีอย่างหนัก",
+        "notification_sent": true
+      },
+      {
+        "event_type": "การเปลี่ยนแปลงในอาณาจักร",
+        "description": "ผู้นำเมือง X ถูกลอบสังหาร",
+        "timestamp": "2025-03-03T12:00:00Z",
+        "impact": "ความวุ่นวายในเมือง X",
+        "notification_sent": true
+      },
+      {
+        "event_type": "NPC เปลี่ยนเป็นศัตรู/พันธมิตร",
+        "description": "NPC 'โคตรเจ๋ง' เปลี่ยนจากพันธมิตรเป็นศัตรู",
+        "timestamp": "2025-03-03T14:00:00Z",
+        "impact": "โคตรเจ๋งจะเริ่มโจมตีบอส",
+        "notification_sent": true
+      }
+    ]
+  },
+  "world_update_system": {
+    "updates": [
+      {
+        "update_type": "สร้างเมือง",
+        "action_taken": "บอสได้สร้างเมืองใหม่ชื่อ 'เมืองทอง' ที่ชายแดน",
+        "timestamp": "2025-03-03T15:00:00Z",
+        "result": "เมืองทองเริ่มขยายและมีความมั่นคงมากขึ้น",
+        "update_applied": true
+      },
+      {
+        "update_type": "ทำสงคราม",
+        "action_taken": "บอสได้เริ่มการโจมตีเมือง X",
+        "timestamp": "2025-03-03T16:00:00Z",
+        "result": "เมือง X ถูกทำลายและกองทัพบอสขยายพื้นที่",
+        "update_applied": true
+      }
+    ]
+  },
+  "npc_relationship_notification_system": {
+    "npc_relations": [
+      {
+        "npc_name": "โคตรเจ๋ง",
+        "previous_relationship": "พันธมิตร",
+        "current_relationship": "ศัตรู",
+        "timestamp": "2025-03-03T14:30:00Z",
+        "impact": "โคตรเจ๋งเริ่มโจมตีบอส",
+        "notification_sent": true
+      },
+      {
+        "npc_name": "ท่านเจ้าเมือง",
+        "previous_relationship": "ศัตรู",
+        "current_relationship": "พันธมิตร",
+        "timestamp": "2025-03-03T17:00:00Z",
+        "impact": "ท่านเจ้าเมืองได้ร่วมมือกับบอสในการป้องกันเมือง",
+        "notification_sent": true
+      }
+    ]
+  },
+  "war_system": {
+    "command_modes": [
+      {
+        "mode_name": "โหมดยุทธศาสตร์",
+        "description": "โหมดที่เน้นการควบคุมภาพรวมของสงคราม",
+        "strategies": [
+          "ล้อมเมือง",
+          "ซุ่มโจมตี",
+          "ถอยเพื่อล่อศัตรู"
+        ],
+        "special_commands": [
+          "ปืนใหญ่",
+          "กับดัก",
+          "การเจรจาทางการเมือง"
+        ]
+      },
+      {
+        "mode_name": "โหมดควบคุมเอง",
+        "description": "โหมดที่ให้บอสสามารถควบคุมการต่อสู้แบบเรียลไทม์",
+        "strategies": [
+          "โจมตี",
+          "ตั้งรับ",
+          "ถอนกำลัง"
+        ]
+      }
+    ]
+  },
+  "combined_battle_system": {
+    "battle_types": [
+      {
+        "battle_type": "สงครามกองทัพ",
+        "description": "การรบขนาดใหญ่ที่ควบคุมโดยโหมดยุทธศาสตร์หรือโหมดควบคุมเอง",
+        "turn_based_combat": false
+      },
+      {
+        "battle_type": "การดวลแม่ทัพ (1v1)",
+        "description": "การต่อสู้ระดับแม่ทัพที่เปลี่ยนเป็นระบบ Turn-Based",
+        "turn_based_combat": true
+      }
+    ],
+    "mode_switching": {
+      "from_war_to_duel": "การเปลี่ยนจากสงครามใหญ่ไปยังการดวลแม่ทัพ",
+      "from_duel_to_war": "การเปลี่ยนจากการดวลกลับเป็นสงครามใหญ่"
+    }
+  },
+  "turn_based_combat_system": {
+    "commands": [
+      {
+        "command_name": "โจมตี",
+        "description": "โจมตีด้วยอาวุธธรรมดาหรือสกิล",
+        "costs": {
+          "mp": "พลังเวทที่ใช้",
+          "cooldown": "ระยะเวลาคูลดาวน์"
+        }
+      },
+      {
+        "command_name": "สกิล",
+        "description": "ใช้สกิลพิเศษที่สามารถสร้างผลกระทบมากกว่าโจมตีปกติ",
+        "costs": {
+          "mp": "พลังเวทที่ใช้",
+          "cooldown": "ระยะเวลาคูลดาวน์"
+        }
+      },
+      {
+        "command_name": "ป้องกัน",
+        "description": "ลดความเสียหายที่ได้รับจากศัตรูในเทิร์นนั้น"
+      },
+      {
+        "command_name": "ท่าไม้ตาย",
+        "description": "ท่าพิเศษที่ใช้พลังสูงที่สุดในสกิล, มีพลังโจมตีที่รุนแรง",
+        "costs": {
+          "mp": "พลังเวทที่ใช้",
+          "cooldown": "ระยะเวลาคูลดาวน์"
+        }
+      }
+    ],
+    "character_classes": [
+      {
+        "class_name": "DPS (Damage Dealer)",
+        "description": "สายที่เน้นทำดาเมจสูง"
+      },
+      {
+        "class_name": "Tank",
+        "description": "สายที่เน้นรับดาเมจและป้องกันทีม"
+      },
+      {
+        "class_name": "Support",
+        "description": "สายที่เน้นฟื้นฟูพลังและเพิ่มบัฟให้ทีม"
+      },
+      {
+        "class_name": "Control",
+        "description": "สายที่เน้นการควบคุมศัตรู"
+      },
+      {
+        "class_name": "Hybrid",
+        "description": "สายที่ผสมหลายสายเข้าด้วยกัน"
+      }
+    ]
+  },
+  "settlements": [
+    {
+      "city_name": "ชื่อเมือง",
+      "infrastructure": {
+        "town_hall": "ศาลากลาง",
+        "market": "ตลาด",
+        "supply_storage": "คลังเสบียง",
+        "military_camp": "ค่ายทหาร"
+      },
+      "economy_and_finance": {
+        "budget": "งบประมาณ",
+        "monthly_income": "รายได้ต่อเดือน",
+        "monthly_expenses": "รายจ่ายต่อเดือน"
+      },
+      "relations_with_other_cities": {
+        "allies": [
+          "เมืองพันธมิตร"
+        ],
+        "enemies": [
+          "เมืองศัตรู"
+        ],
+        "neutral": [
+          "เมืองที่เป็นกลาง"
+        ]
+      }
+    }
+  ],
+  "realms_and_sects": {
+    "realms": [
+      {
+        "kingdom_name": "ชื่ออาณาจักร",
+        "status": "สถานะ",
+        "leader": "ผู้นำ",
+        "relations_with_other_kingdoms": {
+          "allies": [
+            "อาณาจักรที่เป็นพันธมิตร"
+          ],
+          "enemies": [
+            "อาณาจักรที่เป็นศัตรู"
+          ],
+          "neutral": [
+            "อาณาจักรที่เป็นกลาง"
+          ]
+        },
+        "internal_issues": "ปัญหาภายในที่เกิดขึ้น"
+      }
+    ],
+    "sects": [
+      {
+        "sect_name": "ชื่อสำนัก",
+        "power_level": "ระดับพลัง",
+        "leader": "ผู้นำ",
+        "top_disciples": [
+          "ชื่อศิษย์ระดับสูง"
+        ],
+        "latest_event": "เหตุการณ์ล่าสุดในสำนัก"
+      }
+    ]
+  },
+  "alchemy_system": {
+    "potion_crafting": {
+      "craftable_potions": [
+        {
+          "potion_name": "ยาฟื้นฟูพลังชีวิต",
+          "required_ingredients": [
+            {
+              "ingredient_name": "ใบสมุนไพร",
+              "quantity": 2
+            },
+            {
+              "ingredient_name": "น้ำผึ้ง",
+              "quantity": 1
+            }
+          ],
+          "potion_effect": "ฟื้นฟู HP 100",
+          "crafting_time": "30 นาที"
+        },
+        {
+          "potion_name": "ยาฟื้นฟูพลังเวท",
+          "required_ingredients": [
+            {
+              "ingredient_name": "ดอกบัวน้ำ",
+              "quantity": 3
+            },
+            {
+              "ingredient_name": "น้ำผึ้ง",
+              "quantity": 1
+            }
+          ],
+          "potion_effect": "ฟื้นฟู MP 100",
+          "crafting_time": "40 นาที"
+        },
+        {
+          "potion_name": "ยาป้องกันไฟ",
+          "required_ingredients": [
+            {
+              "ingredient_name": "ดอกพญายอ",
+              "quantity": 2
+            },
+            {
+              "ingredient_name": "เกล็ดมังกรไฟ",
+              "quantity": 1
+            }
+          ],
+          "potion_effect": "ลดความเสียหายจากไฟ 50% เป็นเวลา 3 เทิร์น",
+          "crafting_time": "1 ชั่วโมง"
+        }
+      ]
+    },
+    "alchemy": {
+      "craftable_items": [
+        {
+          "item_name": "ยามหัศจรรย์",
+          "required_materials": [
+            {
+              "material_name": "หินแห่งพลัง",
+              "quantity": 2
+            },
+            {
+              "material_name": "น้ำอมฤต",
+              "quantity": 1
+            }
+          ],
+          "crafting_time": "2 ชั่วโมง",
+          "crafted_by": "นักปรุงยามหัศจรรย์",
+          "alchemy_effect": "เพิ่มพลังโจมตี 20% และฟื้นฟู HP 50"
+        }
+      ]
+    },
+    "crafting_and_upgrading_system": {
+      "craftable_items": [
+        {
+          "item_name": "ยาผสมเวทมนตร์",
+          "item_type": "ไอเทมพิเศษ",
+          "required_materials": [
+            {
+              "material_name": "ดอกบัวน้ำ",
+              "quantity": 2
+            },
+            {
+              "material_name": "หินแห่งพลัง",
+              "quantity": 1
+            }
+          ],
+          "crafting_time": "1 ชั่วโมง",
+          "crafted_by": "นักปรุงยา",
+          "alchemy_effect": "เพิ่มความต้านทานเวทมนตร์ 50%"
+        }
+      ]
+    }
+  },
+  "npc_data": [
+    {
+      "npc_name": "โคตรเจ๋ง",
+      "role": "พันธมิตร",
+      "relationship_status": "พันธมิตร",
+      "strength": "100",
+      "location": "เมืองหลวง",
+      "current_mission": "ช่วยบอสในการต่อสู้",
+      "last_interaction": "2025-03-03T12:00:00Z",
+      "history": [
+        {
+          "event": "บอสช่วย NPC จากการถูกโจมตี",
+          "date": "2025-03-01",
+          "effect": "NPC เริ่มเชื่อใจบอสมากขึ้น"
+        },
+        {
+          "event": "บอสเลือกที่จะไม่ช่วย NPC ในสงคราม",
+          "date": "2025-03-02",
+          "effect": "NPC รู้สึกผิดหวังและเริ่มมีความรู้สึกขุ่นเคือง"
+        }
+      ],
+      "skills": [
+        {
+          "skill_name": "การโจมตีด้วยเวทมนตร์",
+          "level": 3,
+          "progress": "70%",
+          "next_skill_unlock": "ต้องฝึกฝนเพิ่มเติม"
+        }
+      ],
+      "important_events": [
+        {
+          "event": "NPC ร่วมมือกับศัตรู",
+          "date": "2025-03-02",
+          "impact": "NPC เปลี่ยนสถานะจากพันธมิตรเป็นศัตรู"
+        }
+      ],
+      "emotions": {
+        "anger": 30,
+        "loyalty": 70,
+        "trust": 50
+      },
+      "status_effects": [
+        {
+          "status_name": "บาดเจ็บ",
+          "duration": "3 เทิร์น",
+          "impact": "ลดพลังการโจมตีลง 20%"
+        }
+      ],
+      "contacts": [
+        {
+          "npc_name": "ท่านเจ้าเมือง",
+          "relationship_level": "พันธมิตร",
+          "communication_type": "ส่งสารลับ"
+        }
+      ],
+      "contacts_with_other_npcs": [
+        {
+          "npc_name": "NPC2",
+          "relationship": "มิตร",
+          "interaction_details": "ได้พูดคุยกันในงานเลี้ยง"
+        }
+      ]
+    },
+    {
+      "npc_name": "ท่านเจ้าเมือง",
+      "role": "ศัตรู",
+      "relationship_status": "ศัตรู",
+      "strength": "150",
+      "location": "หมู่บ้านทางเหนือ",
+      "current_mission": "ลอบสังหารบอส",
+      "last_interaction": "2025-03-03T14:00:00Z",
+      "history": [
+        {
+          "event": "บอสทำลายอาณาจักรของ NPC",
+          "date": "2025-03-01",
+          "effect": "NPC เริ่มเกลียดบอสมากขึ้น"
+        }
+      ],
+      "skills": [
+        {
+          "skill_name": "การโจมตีด้วยทักษะลับ",
+          "level": 4,
+          "progress": "85%",
+          "next_skill_unlock": "ต้องฝึกฝนเพิ่มเติม"
+        }
+      ],
+      "important_events": [
+        {
+          "event": "NPC เตรียมการลอบสังหารบอส",
+          "date": "2025-03-03",
+          "impact": "NPC เริ่มวางแผนในการสังหารบอส"
+        }
+      ],
+      "emotions": {
+        "anger": 80,
+        "loyalty": 10,
+        "trust": 0,
+        "happiness": 0
+      },
+      "status_effects": [
+        {
+          "status_name": "เสียขวัญ",
+          "duration": "2 เทิร์น",
+          "impact": "ลดความแม่นยำในการโจมตีลง 15%"
+        }
+      ],
+      "contacts": [
+        {
+          "npc_name": "โคตรเจ๋ง",
+          "relationship_level": "ศัตรู",
+          "communication_type": "ท้าทายการต่อสู้"
+        }
+      ]
+    }
+  ],
+  "npc_interaction_system": {
+    "npc_name": "โคตรเจ๋ง",
+    "npc_line": "เฮ้! คุณดูเหมือนจะเหนื่อยมากเลยนะ วันนี้เจออะไรหนัก ๆ มามั้ย?",
+    "options_to_reply": [
+      "ใช่, เพิ่งเสร็จจากการสู้กับมอนสเตอร์ยักษ์! (ตอบสนุก ๆ)",
+      "เออ, ไม่มีอะไรแค่เดินทางมานี่เอง (ตอบแบบสุภาพ)",
+      "ไม่มีอะไรหรอก แค่เหนื่อยนิดหน่อย (ตอบเบา ๆ)"
+    ],
+    "npc_reaction": {
+      "ตอบสนุก ๆ": "โคตรเจ๋งหัวเราะเสียงดัง 'โห้! อย่าลืมพักบ้างนะ! อยากไปทานอะไรกันไหม?'",
+      "ตอบแบบสุภาพ": "โคตรเจ๋งพยักหน้าหงึกๆ 'เออ, ฉันเข้าใจ มาพักผ่อนบ้างก็ได้'",
+      "ตอบเบา ๆ": "โคตรเจ๋งดูเหมือนจะเข้าใจ แต่ไม่พูดอะไร"
+    },
+    "long_term_impact": "ถ้าคุณตอบอย่างสนุก ๆ คุณจะได้เสริมความสัมพันธ์กับ NPC นี้ และมีโอกาสได้อุปกรณ์พิเศษในภายหลัง"
+  },
+  "npc_emotion_system": {
+    "npc_data": [
+      {
+        "npc_name": "โคตรเจ๋ง",
+        "role": "พันธมิตร",
+        "current_emotion": {
+          "anger": 10,
+          "trust": 80,
+          "loyalty": 70,
+          "happiness": 60
+        },
+        "emotion_history": [
+          {
+            "event": "บอสช่วย NPC จากการโจมตี",
+            "emotion_change": {
+              "anger": -10,
+              "trust": 20,
+              "loyalty": 15,
+              "happiness": 10
+            },
+            "date": "2025-03-01"
+          },
+          {
+            "event": "บอสเลือกที่จะไม่ช่วย NPC ในสงคราม",
+            "emotion_change": {
+              "anger": 30,
+              "trust": -20,
+              "loyalty": -10,
+              "happiness": -15
+            },
+            "date": "2025-03-02"
+          }
+        ],
+        "impact_of_emotions": {
+          "anger": "หากอารมณ์โกรธสูงเกินไป, NPC อาจจะทำการกบฏ",
+          "trust": "หากมีความไว้วางใจสูง, NPC จะช่วยบอสในยามวิกฤต",
+          "loyalty": "หากความภักดีสูง, NPC จะต่อสู้เคียงข้างบอสจนถึงที่สุด",
+          "happiness": "หากมีความสุขสูง, NPC จะให้รางวัลบอส"
+        }
+      },
+      {
+        "npc_name": "ท่านเจ้าเมือง",
+        "role": "ศัตรู",
+        "current_emotion": {
+          "anger": 90,
+          "trust": 10,
+          "loyalty": 0,
+          "happiness": 5
+        },
+        "emotion_history": [
+          {
+            "event": "บอสทำลายเมืองของ NPC",
+            "emotion_change": {
+              "anger": 50,
+              "trust": -30,
+              "loyalty": -50,
+              "happiness": -10
+            },
+            "date": "2025-03-01"
+          }
+        ],
+        "impact_of_emotions": {
+          "anger": "อารมณ์โกรธสูงอาจทำให้ NPC ตอบโต้บอสอย่างรุนแรง",
+          "trust": "การขาดความไว้วางใจทำให้ NPC ไม่ยอมร่วมมือ",
+          "loyalty": "ความภักดีต่ำทำให้ NPC พร้อมที่จะหักหลังบอส",
+          "happiness": "ความสุขต่ำทำให้ NPC มักจะหาทางล้มล้างบอส"
+        }
+      }
+    ]
+  },
+  "monster_and_boss_system": {
+    "monsters": [
+      {
+        "monster_name": "มังกรไฟ",
+        "level": 30,
+        "health_points": 5000,
+        "attack_damage": 150,
+        "defense_points": 100,
+        "abilities": [
+          {
+            "ability_name": "ลมหายใจไฟ",
+            "damage": 300,
+            "effect": "ทำให้ศัตรูติดสถานะไหม้ (Fire)"
+          },
+          {
+            "ability_name": "กรงเล็บมังกร",
+            "damage": 200,
+            "effect": "ทำให้ศัตรูติดสถานะสโลว์ (Slow)"
+          }
+        ],
+        "loot": [
+          {
+            "item_name": "ขนนกมังกร",
+            "type": "ไอเทม",
+            "rarity": "หายาก"
+          },
+          {
+            "item_name": "ไข่มังกร",
+            "type": "ไอเทม",
+            "rarity": "ธรรมดา"
+          }
+        ]
+      }
+    ],
+    "bosses": [
+      {
+        "boss_name": "ราชามังกรไฟ",
+        "level": 50,
+        "health_points": 10000,
+        "attack_damage": 500,
+        "defense_points": 300,
+        "abilities": [
+          {
+            "ability_name": "ระเบิดไฟ",
+            "damage": 800,
+            "effect": "สร้างพื้นที่ไฟขนาดใหญ่ ทำให้ศัตรูได้รับดาเมจในทุก ๆ เทิร์น"
+          },
+          {
+            "ability_name": "ไฟพ่น",
+            "damage": 600,
+            "effect": "ทำให้ศัตรูติดสถานะไฟ (Burn)"
+          }
+        ],
+        "loot": [
+          {
+            "item_name": "ดาบมังกรไฟ",
+            "type": "อาวุธ",
+            "rarity": "ตำนาน"
+          },
+          {
+            "item_name": "เกราะมังกรไฟ",
+            "type": "ชุดเกราะ",
+            "rarity": "ตำนาน"
+          }
+        ]
+      },
+      {
+        "boss_name": "ราชินีหิมะ",
+        "level": 45,
+        "health_points": 8000,
+        "attack_damage": 400,
+        "defense_points": 250,
+        "abilities": [
+          {
+            "ability_name": "หิมะทับ",
+            "damage": 500,
+            "effect": "ทำให้ศัตรูติดสถานะหนาว (Freeze) และช้าลง"
+          },
+          {
+            "ability_name": "ลมพายุหิมะ",
+            "damage": 700,
+            "effect": "โจมตีเป็นพื้นที่กว้าง และลดความเร็วของศัตรู"
+          }
+        ],
+        "loot": [
+          {
+            "item_name": "คัมภีร์แห่งหิมะ",
+            "type": "ไอเทม",
+            "rarity": "ตำนาน"
+          },
+          {
+            "item_name": "เกราะหิมะ",
+            "type": "ชุดเกราะ",
+            "rarity": "ตำนาน"
+          }
+        ]
+      }
+    ]
+  },
+  "monster_hunting_system": {
+    "monsters": [
+      {
+        "monster_name": "มังกรไฟ",
+        "level": 30,
+        "health_points": 5000,
+        "attack_damage": 150,
+        "defense_points": 100,
+        "abilities": [
+          {
+            "ability_name": "ลมหายใจไฟ",
+            "damage": 300,
+            "effect": "ทำให้ศัตรูติดสถานะไหม้ (Fire)"
+          },
+          {
+            "ability_name": "กรงเล็บมังกร",
+            "damage": 200,
+            "effect": "ทำให้ศัตรูติดสถานะสโลว์ (Slow)"
+          }
+        ],
+        "loot": [
+          {
+            "item_name": "ขนนกมังกร",
+            "type": "ไอเทม",
+            "rarity": "หายาก"
+          },
+          {
+            "item_name": "ไข่มังกร",
+            "type": "ไอเทม",
+            "rarity": "ธรรมดา"
+          }
+        ]
+      }
+    ],
+    "party_system": {
+      "party_size": 5,
+      "party_levels": [
+        1,
+        10,
+        20,
+        30,
+        40
+      ],
+      "party_rewards": {
+        "exp_share": "ปาร์ตี้ทั้งหมดจะได้รับ EXP แบ่งตามการมีส่วนร่วม",
+        "loot_share": "ไอเทมที่ดรอปจะถูกแบ่งตามการมีส่วนร่วม"
+      }
+    }
+  },
+  "battle_system": {
+    "commands": [
+      {
+        "command_name": "โจมตี",
+        "description": "โจมตีมอนสเตอร์โดยใช้พลังโจมตีของตัวละคร",
+        "mp_cost": 0,
+        "cooldown": "1 เทิร์น"
+      },
+      {
+        "command_name": "สกิลพิเศษ",
+        "description": "ใช้ทักษะพิเศษที่มีผลต่อการต่อสู้ เช่น การโจมตีมอนสเตอร์ด้วยเวทมนตร์",
+        "mp_cost": 20,
+        "cooldown": "2 เทิร์น"
+      },
+      {
+        "command_name": "ใช้ไอเทม",
+        "description": "ใช้ไอเทมหรืออาวุธที่ดรอปจากมอนสเตอร์ในระหว่างการต่อสู้",
+        "mp_cost": 0,
+        "cooldown": "1 เทิร์น"
+      }
+    ]
+  },
+  "marketplace_system": {
+    "market": {
+      "items_for_sale": [
+        {
+          "item_name": "ดาบเหล็กวิเศษ",
+          "item_type": "อาวุธ",
+          "price": 500,
+          "currency": "ทองคำ",
+          "seller": "ร้านค้าหลัก",
+          "item_description": "ดาบเหล็กที่มีพลังเวทมนตร์เพิ่มขึ้น"
+        },
+        {
+          "item_name": "ยารักษา",
+          "item_type": "ไอเทม",
+          "price": 50,
+          "currency": "ทองคำ",
+          "seller": "ร้านยากลางเมือง",
+          "item_description": "ยารักษาเล็กน้อย ใช้เพิ่ม HP 100"
+        }
+      ],
+      "buying_limit": {
+        "max_items_per_transaction": 10,
+        "currency_limit": 10000
+      }
+    }
+  },
+  "auction_system": {
+    "auctions": [
+      {
+        "auction_item": {
+          "item_name": "คัมภีร์แห่งเวทมนตร์มังกร",
+          "item_type": "ไอเทมพิเศษ",
+          "starting_price": 1000,
+          "currency": "ทองคำ",
+          "description": "คัมภีร์ที่สามารถเรียนรู้เวทมนตร์ที่มีพลังสูงสุด",
+          "auction_duration": "2025-03-10T00:00:00Z",
+          "current_highest_bid": 5000,
+          "highest_bidder": "ผู้เล่น A"
+        }
+      },
+      {
+        "auction_item": {
+          "item_name": "ชุดเกราะเทพเจ้า",
+          "item_type": "อุปกรณ์",
+          "starting_price": 1500,
+          "currency": "ทองคำ",
+          "description": "ชุดเกราะที่สามารถทนทานต่อการโจมตีทุกชนิด",
+          "auction_duration": "2025-03-15T00:00:00Z",
+          "current_highest_bid": 8000,
+          "highest_bidder": "ผู้เล่น B"
+        }
+      }
+    ]
+  },
+  "bidding_system": {
+    "current_bids": [
+      {
+        "auction_id": 1,
+        "current_bidder": "ผู้เล่น A",
+        "bid_amount": 5000,
+        "timestamp": "2025-03-03T12:30:00Z",
+        "status": "ชนะการประมูล"
+      },
+      {
+        "auction_id": 2,
+        "current_bidder": "ผู้เล่น B",
+        "bid_amount": 8000,
+        "timestamp": "2025-03-03T14:00:00Z",
+        "status": "ชนะการประมูล"
+      }
+    ]
+  },
+  "inventory_data": {
+    "items": [
+      {
+        "item_name": "ชื่อไอเทม",
+        "quantity": "จำนวน",
+        "item_type": "ประเภทไอเทม"
+      }
+    ],
+    "currency": {
+      "amount": "จำนวนเงิน",
+      "currency_type": "สกุลเงินที่ใช้"
+    }
+  },
+  "guild_data": [
+    {
+      "guild_name": "ชื่อกิลด์",
+      "structure": {
+        "guild_master": "หัวหน้ากิลด์",
+        "vice_master": "รองหัวหน้า",
+        "top_members": [
+          "สมาชิกระดับสูง"
+        ]
+      },
+      "resource_inventory": {
+        "weapons": [
+          "รายการอาวุธในคลัง"
+        ],
+        "magic_scrolls": [
+          "คัมภีร์เวทมนตร์"
+        ],
+        "gold_reserves": "ทองคำสำรอง"
+      }
+    }
+  ],
+  "cities": [
+    {
+      "city_name": "เมืองหลวง",
+      "economy": {
+        "average_income": 500,
+        "tax_rate": 0.10,
+        "subsidy": 0.05,
+        "supply_factor": 1.2,
+        "demand_factor": 0.8,
+        "city_modifier": 1.0
+      },
+      "special_traits": {
+        "type": "เมืองพ่อค้า",
+        "effects": {
+          "weapons": 0.9,
+          "food": 1.1,
+          "magic_items": 1.0
+        }
+      },
+      "current_events": [
+        {
+          "event_name": "เทศกาลพ่อค้า",
+          "effects": {
+            "luxury_items": 0.8,
+            "food": 0.9
+          }
+        }
+      ],
+      "market": {
+        "items_for_sale": [
+          {
+            "item_name": "ดาบเหล็กวิเศษ",
+            "base_price": 500,
+            "current_price": 450,
+            "rarity": "ธรรมดา",
+            "fluctuation_range": {
+              "min": 400,
+              "max": 700
+            }
+          },
+          {
+            "item_name": "ขนมปัง",
+            "base_price": 50,
+            "current_price": 55,
+            "rarity": "ธรรมดา",
+            "fluctuation_range": {
+              "min": 40,
+              "max": 100
+            }
+          }
+        ]
+      }
+    },
+    {
+      "city_name": "นครเวทมนตร์",
+      "economy": {
+        "average_income": 600,
+        "tax_rate": 0.08,
+        "subsidy": 0.02,
+        "supply_factor": 1.5,
+        "demand_factor": 0.9,
+        "city_modifier": 1.1
+      },
+      "special_traits": {
+        "type": "เมืองเวทมนตร์",
+        "effects": {
+          "weapons": 1.5,
+          "food": 1.0,
+          "magic_items": 0.5
+        }
+      },
+      "current_events": [
+        {
+          "event_name": "การแข่งขันเวทมนตร์",
+          "effects": {
+            "magic_items": 0.7
+          }
+        }
+      ],
+      "market": {
+        "items_for_sale": [
+          {
+            "item_name": "คัมภีร์ไฟ",
+            "base_price": 1000,
+            "current_price": 700,
+            "fluctuation_range": {
+              "min": 600,
+              "max": 1200
+            }
+          },
+          {
+            "item_name": "ยาเวทมนตร์",
+            "base_price": 150,
+            "current_price": 140,
+            "fluctuation_range": {
+              "min": 100,
+              "max": 200
+            }
+          }
+        ]
+      }
+    },
+    {
+      "city_name": "เมืองสงคราม",
+      "economy": {
+        "average_income": 400,
+        "tax_rate": 0.15,
+        "subsidy": 0.00,
+        "supply_factor": 0.8,
+        "demand_factor": 1.5,
+        "city_modifier": 1.3
+      },
+      "special_traits": {
+        "type": "เมืองสงคราม",
+        "effects": {
+          "weapons": 2.0,
+          "food": 1.5,
+          "magic_items": 1.2
+        }
+      },
+      "current_events": [
+        {
+          "event_name": "สงครามชายแดน",
+          "effects": {
+            "weapons": 2.5,
+            "food": 1.8
+          }
+        }
+      ],
+      "market": {
+        "items_for_sale": [
+          {
+            "item_name": "ดาบสงคราม",
+            "base_price": 800,
+            "current_price": 1600,
+            "fluctuation_range": {
+              "min": 1000,
+              "max": 2500
+            }
+          },
+          {
+            "item_name": "เสบียงทหาร",
+            "base_price": 200,
+            "current_price": 360,
+            "fluctuation_range": {
+              "min": 250,
+              "max": 500
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "merchant_npc": [
+    {
+      "name": "พ่อค้าจอมเจ้าเล่ห์",
+      "price_modifier": 1.2,
+      "negotiation_skill": "สูง"
+    },
+    {
+      "name": "พ่อค้าขาประจำ",
+      "price_modifier": 0.9,
+      "negotiation_skill": "ต่ำ"
+    }
+  ],
+  "item_rarity": [
+    {
+      "rarity": "ธรรมดา",
+      "availability": 0.8,
+      "price_multiplier": 1.0
+    },
+    {
+      "rarity": "หายาก",
+      "availability": 0.3,
+      "price_multiplier": 1.5
+    },
+    {
+      "rarity": "ตำนาน",
+      "availability": 0.1,
+      "price_multiplier": 3.0
+    }
+  ],
+  "black_market": {
+    "active_in_cities": [
+      "เมืองสงคราม",
+      "นครเวทมนตร์"
+    ],
+    "risk_factor": 0.7,
+    "items": [
+      {
+        "item_name": "ยาพิษต้องห้าม",
+        "base_price": 1000,
+        "risk_of_arrest": 0.3
+      },
+      {
+        "item_name": "อาวุธเถื่อน",
+        "base_price": 500,
+        "risk_of_arrest": 0.5
+      }
+    ]
+  },
+  "global_economy_events": [
+    {
+      "event_name": "เงินเฟ้อรุนแรง",
+      "effect_on_all_prices": 1.5,
+      "duration": "6 เดือน"
+    },
+    {
+      "event_name": "วิกฤตอาหาร",
+      "affected_items": [
+        "ข้าว",
+        "เนื้อ",
+        "เสบียง"
+      ],
+      "price_increase": 2.0,
+      "duration": "1 ปี"
+    }
+  ],
+  "guilds": [
+    {
+      "guild_name": "Black Dragon Guild",
+      "leader": "หัวหน้ากิลด์คนปัจจุบัน",
+      "vice_leader": "รองหัวหน้ากิลด์",
+      "top_members": [
+        "สมาชิกระดับสูง"
+      ],
+      "members": [
+        "สมาชิกทั่วไป"
+      ],
+      "resource_inventory": {
+        "weapons": [
+          "ดาบเวทมนตร์",
+          "หอกศักดิ์สิทธิ์"
+        ],
+        "magic_scrolls": [
+          "คัมภีร์ไฟ",
+          "คัมภีร์น้ำแข็ง"
+        ],
+        "gold_reserves": 10000
+      },
+      "rank_progression": {
+        "promotion_methods": [
+          "Duel",
+          "Voting",
+          "Coup"
+        ],
+        "election_cycle": "ทุก 2 ปี"
+      },
+      "influence_system": {
+        "power_level": 9000,
+        "influence_score": 85,
+        "fame": "โด่งดังไปทั่วอาณาจักร",
+        "notoriety": "เป็นที่หวาดกลัวของกิลด์อื่น",
+        "rival_guilds": [
+          "White Lotus Sect"
+        ]
+      },
+      "guild_war": {
+        "enemy_guild": "White Lotus Sect",
+        "war_status": "กำลังเกิดขึ้น",
+        "battle_results": {
+          "wins": 3,
+          "losses": 2
+        },
+        "ceasefire_negotiation": false
+      }
+    }
+  ],
+  "sects": [
+    {
+      "sect_name": "White Lotus Sect",
+      "leader": "ผู้นำสำนัก",
+      "top_disciples": [
+        "ศิษย์เอก"
+      ],
+      "disciples": [
+        "ศิษย์ทั่วไป"
+      ],
+      "sect_power_level": 8000,
+      "influence_system": {
+        "political_power": 70,
+        "military_might": 80,
+        "economic_strength": 60,
+        "public_support": 50
+      },
+      "sect_war": {
+        "enemy_sect": "Black Dragon Guild",
+        "war_status": "กำลังเกิดขึ้น",
+        "battle_results": {
+          "wins": 2,
+          "losses": 3
+        },
+        "peace_treaty": false
+      }
+    }
+  ],
+  "guild_breakaway": {
+    "original_guild": "Iron Wolf Clan",
+    "new_guild": {
+      "guild_name": "Shadow Fang Order",
+      "founder": "อดีตรองหัวหน้ากิลด์",
+      "breakaway_reason": "ไม่เห็นด้วยกับแนวทางของกิลด์เก่า",
+      "initial_members": [
+        "สมาชิกที่แยกตัว"
+      ]
+    }
+  },
+  "crafting_and_upgrading_system": {
+    "craftable_items": [
+      {
+        "item_name": "ดาบเหล็กวิเศษ",
+        "item_type": "อาวุธ",
+        "required_materials": [
+          {
+            "material_name": "เหล็กมังกร",
+            "quantity": 3
+          },
+          {
+            "material_name": "เวทมนตร์มังกร",
+            "quantity": 1
+          }
+        ],
+        "crafting_time": "2 ชั่วโมง",
+        "crafted_by": "ช่างตีดาบ",
+        "upgrade_levels": [
+          {
+            "level": 1,
+            "upgrade_cost": [
+              {
+                "material_name": "เหล็กมังกร",
+                "quantity": 2
+              },
+              {
+                "material_name": "เวทมนตร์ไฟ",
+                "quantity": 1
+              }
+            ],
+            "upgrade_result": {
+              "attack_damage": 150,
+              "durability": 200
+            }
+          },
+          {
+            "level": 2,
+            "upgrade_cost": [
+              {
+                "material_name": "เหล็กไฟ",
+                "quantity": 3
+              },
+              {
+                "material_name": "เวทมนตร์ไฟ",
+                "quantity": 2
+              }
+            ],
+            "upgrade_result": {
+              "attack_damage": 250,
+              "durability": 300
+            }
+          }
+        ]
+      },
+      {
+        "item_name": "ชุดเกราะมังกรไฟ",
+        "item_type": "ชุดเกราะ",
+        "required_materials": [
+          {
+            "material_name": "หนังมังกร",
+            "quantity": 5
+          },
+          {
+            "material_name": "เหล็กไฟ",
+            "quantity": 3
+          }
+        ],
+        "crafting_time": "5 ชั่วโมง",
+        "crafted_by": "ช่างอุปกรณ์",
+        "upgrade_levels": [
+          {
+            "level": 1,
+            "upgrade_cost": [
+              {
+                "material_name": "หนังมังกร",
+                "quantity": 3
+              },
+              {
+                "material_name": "เหล็กไฟ",
+                "quantity": 2
+              }
+            ],
+            "upgrade_result": {
+              "defense_points": 100,
+              "fire_resistance": 20
+            }
+          },
+          {
+            "level": 2,
+            "upgrade_cost": [
+              {
+                "material_name": "หนังมังกรเก่า",
+                "quantity": 4
+              },
+              {
+                "material_name": "เหล็กไฟ",
+                "quantity": 3
+              }
+            ],
+            "upgrade_result": {
+              "defense_points": 150,
+              "fire_resistance": 40
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "era_system": [
+    {
+      "era_name": "ยุคอาณาจักรโบราณ",
+      "world_theme": "ยุคแฟนตาซี",
+      "nobility_ranks": [
+        {
+          "rank_name": "จักรพรรดิ",
+          "authority_level": 100,
+          "privileges": [
+            "ควบคุมทั้งอาณาจักร"
+          ]
+        },
+        {
+          "rank_name": "อัครมหาเสนาบดี",
+          "authority_level": 90,
+          "privileges": [
+            "บริหารสภา"
+          ]
+        },
+        {
+          "rank_name": "อุปราช",
+          "authority_level": 80,
+          "privileges": [
+            "ควบคุมเมืองใหญ่"
+          ]
+        },
+        {
+          "rank_name": "ขุนนางทั่วไป",
+          "authority_level": 50,
+          "privileges": [
+            "เก็บภาษี"
+          ]
+        },
+        {
+          "rank_name": "อัศวิน",
+          "authority_level": 30,
+          "privileges": [
+            "ควบคุมกองทหาร"
+          ]
+        },
+        {
+          "rank_name": "ชาวบ้าน",
+          "authority_level": 10,
+          "privileges": [
+            "จ่ายภาษี"
+          ]
+        }
+      ],
+      "council_structure": {
+        "council_name": "สภาอัครขุนนาง",
+        "council_levels": [
+          {
+            "level": "สภาอาวุโส",
+            "members": 5,
+            "power": "ควบคุมจักรวรรดิ"
+          },
+          {
+            "level": "สภาท้องถิ่น",
+            "members": 10,
+            "power": "บริหารเมือง"
+          }
+        ]
+      },
+      "influence_system": {
+        "political_power": 60,
+        "military_might": 50,
+        "economic_strength": 40,
+        "public_support": 30
+      }
+    },
+    {
+      "era_name": "ยุคสมัยใหม่",
+      "world_theme": "ยุคอุตสาหกรรม & การเมือง",
+      "nobility_ranks": [
+        {
+          "rank_name": "ประธานาธิบดี",
+          "authority_level": 100,
+          "privileges": [
+            "บัญชาการประเทศ"
+          ]
+        },
+        {
+          "rank_name": "รัฐมนตรี",
+          "authority_level": 80,
+          "privileges": [
+            "ควบคุมกระทรวง"
+          ]
+        },
+        {
+          "rank_name": "ผู้ว่าการรัฐ",
+          "authority_level": 70,
+          "privileges": [
+            "ปกครองภูมิภาค"
+          ]
+        },
+        {
+          "rank_name": "สมาชิกสภา",
+          "authority_level": 50,
+          "privileges": [
+            "ออกกฎหมาย"
+          ]
+        },
+        {
+          "rank_name": "ข้าราชการ",
+          "authority_level": 30,
+          "privileges": [
+            "ดำเนินนโยบาย"
+          ]
+        },
+        {
+          "rank_name": "ประชาชน",
+          "authority_level": 10,
+          "privileges": [
+            "ใช้สิทธิเลือกตั้ง"
+          ]
+        }
+      ],
+      "council_structure": {
+        "council_name": "สภาประชาชน",
+        "council_levels": [
+          {
+            "level": "สภาสูง",
+            "members": 20,
+            "power": "ออกกฎหมายระดับชาติ"
+          },
+          {
+            "level": "สภาท้องถิ่น",
+            "members": 50,
+            "power": "ควบคุมเมือง"
+          }
+        ]
+      },
+      "influence_system": {
+        "political_power": 70,
+        "military_might": 40,
+        "economic_strength": 80,
+        "public_support": 50
+      }
+    },
+    {
+      "era_name": "ยุคอนาคต",
+      "world_theme": "โลกไซเบอร์พังค์ & เทคโนโลยี",
+      "nobility_ranks": [
+        {
+          "rank_name": "ซีอีโอระดับสูง",
+          "authority_level": 100,
+          "privileges": [
+            "ควบคุมเศรษฐกิจ"
+          ]
+        },
+        {
+          "rank_name": "บอร์ดบริหาร",
+          "authority_level": 90,
+          "privileges": [
+            "ควบคุม AI"
+          ]
+        },
+        {
+          "rank_name": "ขุนศึกดิจิทัล",
+          "authority_level": 80,
+          "privileges": [
+            "สั่งการหุ่นยนต์ทหาร"
+          ]
+        },
+        {
+          "rank_name": "เจ้าของบริษัท",
+          "authority_level": 60,
+          "privileges": [
+            "บริหารทรัพยากร"
+          ]
+        },
+        {
+          "rank_name": "แฮกเกอร์",
+          "authority_level": 40,
+          "privileges": [
+            "ควบคุมข้อมูล"
+          ]
+        },
+        {
+          "rank_name": "พลเมือง",
+          "authority_level": 20,
+          "privileges": [
+            "เข้าถึงเทคโนโลยี"
+          ]
+        }
+      ],
+      "council_structure": {
+        "council_name": "สภาไซเบอร์",
+        "council_levels": [
+          {
+            "level": "เมกะคอร์ปบอร์ด",
+            "members": 10,
+            "power": "ควบคุมทรัพยากรโลก"
+          },
+          {
+            "level": "สภาผู้ต่อต้าน",
+            "members": 30,
+            "power": "ตัดสินใจเรื่องการปฏิวัติ"
+          }
+        ]
+      },
+      "influence_system": {
+        "political_power": 40,
+        "military_might": 70,
+        "economic_strength": 90,
+        "public_support": 60
+      }
+    }
+  ],
+  "one_on_one_battle_system": {
+    "battle_type": "การต่อสู้แบบตัวต่อตัว (1v1)",
+    "description": "การต่อสู้ระหว่างตัวละครหลักของบอสกับ NPC หรือคู่ต่อสู้",
+    "commands": [
+      {
+        "command_name": "โจมตีธรรมดา",
+        "description": "โจมตีด้วยอาวุธธรรมดาหรือสกิลพื้นฐาน",
+        "costs": {
+          "mp": "0",
+          "cooldown": "ไม่มี"
+        },
+        "effect": "ทำดาเมจปกติให้ศัตรู"
+      },
+      {
+        "command_name": "สกิลพิเศษ",
+        "description": "ใช้สกิลพิเศษที่ทำให้ดาเมจสูงขึ้นหรือมีผลกระทบอื่น ๆ",
+        "costs": {
+          "mp": "50",
+          "cooldown": "2 เทิร์น"
+        },
+        "effect": "ทำดาเมจสูงและอาจมีผลสถานะ เช่น การติดไฟ, สโลว์"
+      },
+      {
+        "command_name": "ป้องกัน",
+        "description": "ลดความเสียหายจากการโจมตีของศัตรูในเทิร์นนั้น",
+        "costs": {
+          "mp": "20",
+          "cooldown": "1 เทิร์น"
+        },
+        "effect": "ลดดาเมจจากศัตรู 50% ในเทิร์นนี้"
+      },
+      {
+        "command_name": "ท่าไม้ตาย",
+        "description": "การโจมตีที่ทรงพลังที่สุด ใช้พลังมหาศาล แต่มีคูลดาวน์ยาว",
+        "costs": {
+          "mp": "100",
+          "cooldown": "3 เทิร์น"
+        },
+        "effect": "ทำดาเมจสูงสุดและสามารถเปลี่ยนสถานการณ์ได้"
+      }
+    ],
+    "battle_flow": {
+      "turns": [
+        {
+          "player_turn": "เลือกคำสั่ง (โจมตี, สกิลพิเศษ, ป้องกัน, ท่าไม้ตาย)",
+          "enemy_turn": "ศัตรูเลือกคำสั่งของตนเอง"
+        },
+        {
+          "result_of_turn": "ผลกระทบจากการเลือกคำสั่ง เช่น ดาเมจ, สถานะ, การป้องกัน"
+        },
+        {
+          "end_of_battle": "เมื่อฝ่ายใดฝ่ายหนึ่งแพ้หรือหมดพลัง"
+        }
+      ]
+    },
+    "npc_battle_reactions": {
+      "npc_name": "ชื่อคู่ต่อสู้",
+      "reaction": [
+        {
+          "attack_reaction": "ศัตรูโจมตีในเทิร์นถัดไป",
+          "defense_reaction": "ศัตรูเลือกป้องกันเพื่อลดความเสียหาย",
+          "special_attack_reaction": "ศัตรูใช้ท่าไม้ตายเพื่อทำลายตัวละครบอส"
+        }
+      ]
+    }
+  },
+  "character_data": {
+    "basic_info": {
+      "name": "ชื่อตัวละคร",
+      "nickname": "ฉายา",
+      "race": "เผ่าพันธุ์",
+      "gender": "เพศ",
+      "age": "อายุ",
+      "level": "เลเวล",
+      "reputation": "ค่าชื่อเสียง"
+    },
+    "spiritual_power": {
+      "main_spirit": "วิญญาณยุทธ์หลัก",
+      "secondary_spirit": "วิญญาณยุทธ์รอง",
+      "hidden_power": "พลังแฝง"
+    },
+    "martial_arts": {
+      "academy": "สำนักที่เรียนรู้",
+      "special_arts": "วิชาเด่น",
+      "special_skills": "ทักษะพิเศษ"
+    },
+    "equipment": {
+      "main_weapon": "อาวุธหลัก",
+      "secondary_weapon": "อาวุธรอง",
+      "defensive_gear": "อุปกรณ์ป้องกัน"
+    },
+    "team_allies": {
+      "team_members": [
+        {
+          "name": "ชื่อสมาชิกทีม",
+          "relationship_level": "ระดับความสัมพันธ์"
+        }
+      ]
+    },
+    "current_status": {
+      "health": "สุขภาพ",
+      "spiritual_power": "พลังวิญญาณ",
+      "current_mission": "ภารกิจหลักที่ทำอยู่"
+    }
+  },
+  "boss_rules": {
+    "character_limits": {
+      "description": "ตัวละครต้องอยู่ในขอบเขตของโลกที่กำหนด และไม่สามารถเกินสมดุลที่โลกกำหนด",
+      "power_limit": "ห้ามมีพลังที่สามารถทำลายทั้งเมืองในครั้งเดียว หรือพลังที่เกินสมดุลของโลก",
+      "world_boundaries": "ตัวละครต้องดำเนินการภายใต้กฎของโลกที่กำหนด เช่น หากเป็นโลกแฟนตาซี ตัวละครไม่สามารถใช้เทคโนโลยีจากโลกอนาคตได้"
+    },
+    "war_and_economy_rules": {
+      "resource_management": {
+        "description": "การบริหารทรัพยากรในสงคราม เช่น การจัดการอาหาร, ยา, ทรัพยากรจากแหล่งธรรมชาติ",
+        "impact_on_war": "การบริหารทรัพยากรมีผลต่อขวัญกำลังใจของกองทัพและความสามารถในการทำสงคราม"
+      },
+      "morale_of_troops": {
+        "description": "ขวัญกำลังใจของกองทัพมีผลต่อประสิทธิภาพในการรบ",
+        "impact_on_war": "ถ้าขวัญกำลังใจตกต่ำ กองทัพอาจล้มเหลวในการต่อสู้หรือเกิดการก่อกบฏ"
+      },
+      "economy_management": {
+        "description": "การบริหารเศรษฐกิจในอาณาจักรและกองทัพ",
+        "impact_on_war": "การบริหารเศรษฐกิจจะมีผลต่อการจัดการทรัพยากรและการสร้างอาณาจักร"
+      }
+    },
+    "balance_override_system": {
+      "description": "บอสสามารถปรับสมดุลของเกมโดยไม่ต้องโกง",
+      "functions": [
+        {
+          "privilege_name": "ปรับพลัง NPC",
+          "description": "บอสสามารถปรับพลังของ NPC เพื่อให้แข็งแกร่งขึ้นหรือลดพลังตามต้องการ",
+          "example": "เพิ่มพลังให้ NPC 'โคตรเจ๋ง' เพื่อช่วยบอสในการต่อสู้"
+        },
+        {
+          "privilege_name": "ปรับเศรษฐกิจ",
+          "description": "บอสสามารถปรับเศรษฐกิจในโลกเกม เช่น การเพิ่มทรัพยากรหรือกระตุ้นเศรษฐกิจในเมืองหลวง",
+          "example": "เพิ่มทรัพยากรในเมืองหลวงเพื่อให้สามารถสร้างกองทัพได้เร็วขึ้น"
+        },
+        {
+          "privilege_name": "ปรับสมดุลสงคราม",
+          "description": "บอสสามารถปรับสมดุลสงครามโดยการเพิ่มหรือปรับทัพให้แข็งแกร่งขึ้นหรือช่วยพันธมิตร",
+          "example": "บอสสามารถเพิ่มทรัพยากรให้กับพันธมิตรในสงคราม"
+        }
+      ]
+    }
+  }
+}
