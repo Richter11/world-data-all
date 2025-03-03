@@ -1,3 +1,41 @@
 {
-  "npcs": []
+  "npc_data": [
+    {
+      "npc_name": "โคตรเจ๋ง",
+      "role": "พันธมิตร",
+      "relationship_status": "พันธมิตร",
+      "strength": "100",
+      "location": "เมืองหลวง",
+      "current_mission": "ช่วยบอสในการต่อสู้",
+      "last_interaction": "2025-03-03T12:00:00Z",
+      "history": [
+        {
+          "event": "บอสช่วย NPC จากการถูกโจมตี",
+          "date": "2025-03-01",
+          "effect": "NPC เริ่มเชื่อใจบอสมากขึ้น"
+        },
+        {
+          "event": "บอสเลือกที่จะไม่ช่วย NPC ในสงคราม",
+          "date": "2025-03-02",
+          "effect": "NPC รู้สึกผิดหวังและเริ่มมีความรู้สึกขุ่นเคือง"
+        }
+      ]
+    },
+    {
+      "npc_name": "ท่านเจ้าเมือง",
+      "role": "ศัตรู",
+      "relationship_status": "ศัตรู",
+      "strength": "150",
+      "location": "หมู่บ้านทางเหนือ",
+      "current_mission": "ลอบสังหารบอส",
+      "last_interaction": "2025-03-03T14:00:00Z",
+      "history": [
+        {
+          "event": "บอสทำลายอาณาจักรของ NPC",
+          "date": "2025-03-01",
+          "effect": "NPC เริ่มเกลียดบอสมากขึ้น"
+        }
+      ]
+    }
+  ]
 }
