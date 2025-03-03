@@ -1,17 +1,6 @@
 {
-  "guild_data": [
-    {
-      "guild_name": "ชื่อกิลด์",
-      "structure": {
-        "guild_master": "หัวหน้ากิลด์",
-        "vice_master": "รองหัวหน้า",
-        "top_members": ["สมาชิกระดับสูง"]
-      },
-      "resource_inventory": {
-        "weapons": ["รายการอาวุธในคลัง"],
-        "magic_scrolls": ["คัมภีร์เวทมนตร์"],
-        "gold_reserves": "ทองคำสำรอง"
-      }
-    }
-  ]
+    "guilds": [
+        "Guild A",
+        "Guild B"
+    ]
 }
