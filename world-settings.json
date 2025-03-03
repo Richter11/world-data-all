@@ -1,1 +1,71 @@
 
+{
+  "world_settings": {
+    "world_type": {
+      "type_name": "โลกแฟนตาซี",
+      "description": "โลกที่มีพลังเวทมนตร์, เผ่าพันธุ์, และสิ่งมีชีวิตพิเศษ",
+      "settings": {
+        "governance": "การปกครองโดยมักมีจักรพรรดิหรือสภาเวทมนตร์",
+        "economy": "เศรษฐกิจที่ใช้ทรัพยากรธรรมชาติและเวทมนตร์",
+        "technology": "เทคโนโลยีต่ำ เน้นเวทมนตร์และสิ่งมีชีวิตพิเศษ"
+      }
+    },
+    "civilization_and_starting_location": {
+      "civilization_name": "อาณาจักรแห่งเวทมนตร์",
+      "starting_location": "เมืองหลวงเวทมนตร์"
+    },
+    "story_path": {
+      "path_name": "การฝึกฝน",
+      "description": "โฟกัสที่การฝึกฝนตัวละครในด้านต่าง ๆ เช่น วิชาเวทมนตร์, การต่อสู้ หรือทักษะพิเศษ",
+      "key_features": ["การเรียนรู้วิชาพิเศษ", "การเพิ่มพลังให้ตัวละคร", "การผจญภัยตามหาอาจารย์"]
+    }
+  },
+  "event_notification_system": {
+    "important_events": [
+      {
+        "event_type": "สงคราม",
+        "description": "สงครามระหว่างอาณาจักร A และ B ได้เริ่มต้นขึ้น",
+        "timestamp": "2025-03-03T10:00:00Z",
+        "impact": "เมือง A ถูกโจมตีอย่างหนัก",
+        "notification_sent": true
+      },
+      {
+        "event_type": "การเปลี่ยนแปลงในอาณาจักร",
+        "description": "ผู้นำเมือง X ถูกลอบสังหาร",
+        "timestamp": "2025-03-03T12:00:00Z",
+        "impact": "ความวุ่นวายในเมือง X",
+        "notification_sent": true
+      }
+    ]
+  },
+  "world_update_system": {
+    "updates": [
+      {
+        "update_type": "สร้างเมือง",
+        "action_taken": "บอสได้สร้างเมืองใหม่ชื่อ 'เมืองทอง' ที่ชายแดน",
+        "timestamp": "2025-03-03T15:00:00Z",
+        "result": "เมืองทองเริ่มขยายและมีความมั่นคงมากขึ้น",
+        "update_applied": true
+      },
+      {
+        "update_type": "ทำสงคราม",
+        "action_taken": "บอสได้เริ่มการโจมตีเมือง X",
+        "timestamp": "2025-03-03T16:00:00Z",
+        "result": "เมือง X ถูกทำลายและกองทัพบอสขยายพื้นที่",
+        "update_applied": true
+      }
+    ]
+  },
+  "npc_relationship_notification_system": {
+    "npc_relations": [
+      {
+        "npc_name": "โคตรเจ๋ง",
+        "previous_relationship": "พันธมิตร",
+        "current_relationship": "ศัตรู",
+        "timestamp": "2025-03-03T14:30:00Z",
+        "impact": "โคตรเจ๋งเริ่มโจมตีบอส",
+        "notification_sent": true
+      }
+    ]
+  }
+}
