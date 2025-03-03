@@ -1,26 +1,3 @@
 {
-  "realms_and_sects": {
-    "realms": [
-      {
-        "kingdom_name": "ชื่ออาณาจักร",
-        "status": "สถานะ",
-        "leader": "ผู้นำ",
-        "relations_with_other_kingdoms": {
-          "allies": ["อาณาจักรที่เป็นพันธมิตร"],
-          "enemies": ["อาณาจักรที่เป็นศัตรู"],
-          "neutral": ["อาณาจักรที่เป็นกลาง"]
-        },
-        "internal_issues": "ปัญหาภายในที่เกิดขึ้น"
-      }
-    ],
-    "sects": [
-      {
-        "sect_name": "ชื่อสำนัก",
-        "power_level": "ระดับพลัง",
-        "leader": "ผู้นำ",
-        "top_disciples": ["ชื่อศิษย์ระดับสูง"],
-        "latest_event": "เหตุการณ์ล่าสุดในสำนัก"
-      }
-    ]
-  }
+    "realms": []
 }
