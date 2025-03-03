@@ -1,0 +1,12 @@
+{
+  "year": 1030,
+  "war_status": "active",
+  "factions": {
+    "Heavenly Empire": {"power": 5000},
+    "Demon Sect": {"power": 4800}
+  },
+  "events": [
+    {"id": 1, "name": "สงครามจักรวรรดิ", "status": "ongoing"},
+    {"id": 2, "name": "ภัยพิบัติ", "status": "pending"}
+  ]
+}
