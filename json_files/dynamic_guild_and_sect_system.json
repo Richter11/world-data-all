@@ -1,0 +1,69 @@
+{
+  "guilds": [
+    {
+      "guild_name": "Black Dragon Guild",
+      "leader": "หัวหน้ากิลด์คนปัจจุบัน",
+      "vice_leader": "รองหัวหน้ากิลด์",
+      "top_members": ["สมาชิกระดับสูง"],
+      "members": ["สมาชิกทั่วไป"],
+      "resource_inventory": {
+        "weapons": ["ดาบเวทมนตร์", "หอกศักดิ์สิทธิ์"],
+        "magic_scrolls": ["คัมภีร์ไฟ", "คัมภีร์น้ำแข็ง"],
+        "gold_reserves": 10000
+      },
+      "rank_progression": {
+        "promotion_methods": ["Duel", "Voting", "Coup"],
+        "election_cycle": "ทุก 2 ปี"
+      },
+      "influence_system": {
+        "power_level": 9000,
+        "influence_score": 85,
+        "fame": "โด่งดังไปทั่วอาณาจักร",
+        "notoriety": "เป็นที่หวาดกลัวของกิลด์อื่น",
+        "rival_guilds": ["White Lotus Sect"]
+      },
+      "guild_war": {
+        "enemy_guild": "White Lotus Sect",
+        "war_status": "กำลังเกิดขึ้น",
+        "battle_results": {
+          "wins": 3,
+          "losses": 2
+        },
+        "ceasefire_negotiation": false
+      }
+    }
+  ],
+  "sects": [
+    {
+      "sect_name": "White Lotus Sect",
+      "leader": "ผู้นำสำนัก",
+      "top_disciples": ["ศิษย์เอก"],
+      "disciples": ["ศิษย์ทั่วไป"],
+      "sect_power_level": 8000,
+      "influence_system": {
+        "political_power": 70,
+        "military_might": 80,
+        "economic_strength": 60,
+        "public_support": 50
+      },
+      "sect_war": {
+        "enemy_sect": "Black Dragon Guild",
+        "war_status": "กำลังเกิดขึ้น",
+        "battle_results": {
+          "wins": 2,
+          "losses": 3
+        },
+        "peace_treaty": false
+      }
+    }
+  ],
+  "guild_breakaway": {
+    "original_guild": "Iron Wolf Clan",
+    "new_guild": {
+      "guild_name": "Shadow Fang Order",
+      "founder": "อดีตรองหัวหน้ากิลด์",
+      "breakaway_reason": "ไม่เห็นด้วยกับแนวทางของกิลด์เก่า",
+      "initial_members": ["สมาชิกที่แยกตัว"]
+    }
+  }
+}
