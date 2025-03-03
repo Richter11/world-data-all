@@ -1,0 +1,67 @@
+{
+  "time_system": {
+    "current_date": {
+      "year": 2025,
+      "month": 3,
+      "day": 3,
+      "season": "ฤดูใบไม้ผลิ"
+    },
+    "time_progression": {
+      "time_passed": "30 วัน",
+      "time_unit": "วัน",
+      "current_time": "10:00 AM"
+    },
+    "date_events": [
+      {
+        "event_name": "การปฏิวัติในเมือง A",
+        "event_date": "2025-03-15",
+        "impact": "การเปลี่ยนแปลงการปกครองในเมือง A"
+      },
+      {
+        "event_name": "การโจมตีของมอนสเตอร์ยักษ์",
+        "event_date": "2025-04-01",
+        "impact": "เมือง X ถูกทำลายโดยมอนสเตอร์ยักษ์"
+      }
+    ]
+  },
+  "dynamic_time_system": {
+    "current_time_scale": {
+      "real_time_to_game_time_ratio": "1 ชั่วโมงในเกม = 10 ปีในโลก",
+      "game_time_speed": "เร็ว"
+    },
+    "time_progression": {
+      "time_scale": "เร็ว",
+      "current_in_game_time": "2025-03-03 10:00 AM",
+      "next_event_time": "2025-04-03 10:00 AM"
+    },
+    "time_based_events": [
+      {
+        "event_name": "การบุกโจมตีของจักรวรรดิ",
+        "event_time": "2025-03-05 12:00 PM",
+        "impact": "การโจมตีครั้งใหญ่จะเริ่มขึ้น"
+      },
+      {
+        "event_name": "ฤดูร้อนมาถึง",
+        "event_time": "2025-06-01 08:00 AM",
+        "impact": "อุณหภูมิในโลกเพิ่มขึ้น ทำให้เกิดภัยแล้งในบางพื้นที่"
+      }
+    ]
+  },
+  "turn_based_time_system": {
+    "turn_duration": "1 วันในเกม = 1 เทิร์น",
+    "turns": [
+      {
+        "turn_number": 1,
+        "date_updated": "2025-03-03",
+        "event": "บอสเลือกที่จะเริ่มสำรวจเมือง A",
+        "time_passed": "1 วัน"
+      },
+      {
+        "turn_number": 2,
+        "date_updated": "2025-03-04",
+        "event": "บอสเจอกับมอนสเตอร์ในป่าลึก",
+        "time_passed": "1 วัน"
+      }
+    ]
+  }
+}
